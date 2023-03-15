@@ -43,8 +43,10 @@ durum2 = "Başarısız"
 
 if isim == durum1 and sifre == durum1:
     print("Siteye giriş yapıldı")
-elif isim== durum2 and sifre == durum2:
-    print("Giriş başarısız")
+elif isim != durum2 and sifre == durum2:
+    print("İsim hatalı")
+elif isim == durum2 and sifre != durum2:
+    print("Şifre hatalı")
 else:
     print("isim ve şifre giriniz")
 
