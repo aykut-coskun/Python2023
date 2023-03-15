@@ -38,13 +38,15 @@ odevYuzdesi = 20
 
 isim = "Aykut"
 sifre = "12345"
-durum1 = "Başarılı"
 
-if isim == durum1 and sifre == durum1:
+userName = input("İsim: ")
+password = input("Şifre: ")
+
+if isim == userName and sifre == password:
     print("Siteye giriş yapıldı")
-elif isim != durum1 and sifre == durum1:
+elif isim != userName and sifre == password:
     print("İsim hatalı")
-elif isim == durum1 and sifre != durum1:
+elif isim == userName and sifre != password:
     print("Şifre hatalı")
 else:
     print("isim ve şifre giriniz")
