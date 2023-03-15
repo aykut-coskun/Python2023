@@ -39,7 +39,6 @@ odevYuzdesi = 20
 isim = "Aykut"
 sifre = "12345"
 durum1 = "Başarılı"
-durum2 = "Başarısız"
 
 if isim == durum1 and sifre == durum1:
     print("Siteye giriş yapıldı")
