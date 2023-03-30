@@ -6,7 +6,7 @@ Birim testleri , entegrasyon testleri , uçtan uca testler ve işlevsel testler 
 
 Pytest'te kullanılan bazı dekoratörler:
 
-**@Pytest.fixture()** --> Fonksiyonlarda dönüş değerinin, imzalarında dekore edilmiş fonksiyon adı bulunan test fonksiyonlarına enjekte edilmesini mümkün kılar.
+**@pytest.fixture()** --> Fonksiyonlarda dönüş değerinin, imzalarında dekore edilmiş fonksiyon adı bulunan test fonksiyonlarına enjekte edilmesini mümkün kılar.
 
 **@pytest.mark.parametrize()** --> Bu dekoratör her yinelemede girilen parametreleri değiştirerek bir test işlevini birden çok kez çağırmaya izin verir.
 
