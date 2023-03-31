@@ -154,11 +154,11 @@ class Test_Sauce:
         sleep(5)
 
         usernameInput = driver.find_element(By.ID, "user-name")
-        paswordInput = driver.find_element(By.ID, "password")
+        passwordInput = driver.find_element(By.ID, "password")
         sleep(2)
 
         usernameInput.send_keys("standard_user")
-        paswordInput.send_keys("secret_sauce")
+        passwordInput.send_keys("secret_sauce")
         sleep(2)
         loginBtn = driver.find_element(By.ID, "login-button")
         sleep(2)
